@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Neemo - SEO Digital & IT Agency React Next Template</title>
+        <link href="css/collection.css" rel="stylesheet">
+        <link href="css/custom.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400" rel="stylesheet" type="text/css">
+        <script src="js/other.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+
+    <body data-spy="scroll" data-target=".sidebar" data-offset="200">
+        <aside class="sidebar sidebar-boxed sidebar-dark">  
+            <ul class="nav sidenav dropable">
+                <li><a href="#introduction" title="Introduction">Introduction</a></li>
+                <li><a href="#getting_started" title="Setup Development Envrionment">Setup Development Environment</a></li>
+                <li><a href="#documenter_cover">Pages and Components Info</a></li>
+                <li><a href="#dependencies" title="Dependencies">Dependencies</a></li>
+                <li><a href="#change_layout" title="Change Default Home Page">Change Default Home Page</a></li>
+                <li><a href="#contact">Contact Form Setup</a></li>
+                <li><a href="#fonts_used" title="Fonts">Fonts</a></li>
+                <li><a href="#run_scss_file" title="How to Run The SCSS File">Run SCSS File</a></li>
+                <li><a href="#supports" title="Support">Support</a></li>
+            </ul>
+        </aside>
+
+        <header class="site-header navbar-transparent"> 
+            <div class="banner auto-size" style="background-color: #455aa2">
+                <div class="container-fluid">
+                    <h1><strong>Neemo - React - Next</strong>  Documentation</h1>
+                </div>
+            </div>
+        </header>
+        
+        <main class="container-fluid"> 
+            <article class="main-content" role="main">
+                <section id="introduction">
+                    <div class="page-header">
+                        <h3>Introduction</h3>
+                    </div>
+                    <p>Neemo is a Pure React and Next JS template for Digital Business, SEO, and IT Services company websites. This can be used for digital and marketing agencies who provide IT Services, Digital Marketing, SEO, SMM, SEM, or SaaS Applications based services clients. Also, this template is suitable for Mobile App, Software, startups, WebApp, SaaS, and any other business agencies.</p>
+                </section>
+
+                <section id="getting_started">
+                    <div class="page-header">
+                        <h3>Setup Development Environment</h3>
+                    </div>
+                    <p>
+                        In order to kickstart the development of your web app with Neemo, the very first thing you need to do is to setup a react development environment.
+                    </p>
+                    <p>Following tools are needed to setup a react dev environment:</p>
+                    <ul>
+                        <li><b>Node JS</b></li>
+                        <p>
+                            NodeJS works as a node package manager behind the scene. It is recommended to download and install the latest version of Node JS from its official site <a href="http://nodejs.org/" target="_blank">http://nodejs.org/</a>
+                        </p>
+                    </ul>
+                    
+                    <div class="page-header">
+                        <h3>Preparation</h3>
+                    </div>
+                    <p>
+                        You'll need to install <a href="https://nodejs.org/en/" href="_blank">Node.js >=v14.17+ (Recommended Version)</a> (NPM comes along with it) and serve (a NPM package)
+                    </p>
+                    <p>Use command line tool i.e. powershell or terminal and navigate to the project(Neemo) root. This is powershell in windows and terminal on mac/linux.</p>
+                    <strong>Let's looking how setup:</strong> <br>
+                    <p>Use terminal and navigate to the project root.</p>
+                    <p>Then run : <code class="language-markup">npm install</code></p>
+                    <p>Then run : <code class="language-markup">npm run dev</code></p>
+                    <p>It'll return something like this in console:</p>
+                    <p>> project@2.1.0 dev drive:\project</p>
+                    <p>> node server.js</p>
+                    <p>[ wait ] starting the development server ...</p>
+                    <p>[ info ] waiting on http://localhost:3000 ...</p>
+                    <p>[ ready ] compiled successfully</p>
+                    <p>[ info ] ready on http://localhost:3000</p>
+                    <p>Now in the browser go <a href="localhost:3000">localhost:3000</a></p>
+					<div class="page-header">
+                        <h3>For Production Build</h3>
+                    </div>
+                    <p>Run : <code class=" language-markup">npm run build</code></p>
+                    <p>Then Run : <code class=" language-markup">npm run start</code></p>
+                    <p>See the official next.js doc <a href="https://nextjs.org/docs/deployment#other-hosting-options" target="_blank">here</a></p>
+                </section>
+
+                <section id="documenter_cover">
+                    <div class="page-header">
+                        <h3>Pages and Components Info</h3>
+                    </div>
+                    
+                    <div id="documenter_buttons"> </div>
+                        <ul>
+                            <li>Home Page Default (<b>/pages/index.js</b>)</li>
+                            <li>Home Page Two (<b>/pages/index2.js</b>)</li>
+                            <li>Home Page Three (<b>/pages/index3.js</b>)</li>
+                            <li>About Us Page (<b>/pages/about-us.js</b>)</li>
+                            <li>Services Page (<b>/pages/services.js</b>)</li>
+                            <li>Service Details Page (<b>/pages/single-service.js</b>)</li>
+                            <li>Projects Page (<b>/pages/projects.js</b>)</li>
+                            <li>Projects Two Page (<b>/pages/projects-two.js</b>)</li>
+                            <li>Project Details Page (<b>/pages/single-project.js</b>)</li>
+							<li>Blog Page (<b>/pages/blog.js</b>)</li>
+                            <li>Blog Details Page (<b>/pages/single-blog.js</b>)</li>
+                            <li>Features Page (<b>/pages/features.js</b>)</li>
+							<li>Team Page (<b>/pages/team.js</b>)</li>
+                            <li>Pricing Page (<b>/pages/pricing.js</b>)</li>
+                            <li>Faq Page (<b>/pages/faq.js</b>)</li>
+							<li>Error Page (<b>/pages/error.js</b>)</li>
+							<li>Coming Soon Page (<b>/pages/coming-soon.js</b>)</li>
+                            <li>Contact Page (<b>/pages/contact.js</b>)</li>
+                            <li>Etc....</li>
+                        </ul>
+                    <h6 style="margin-top:20px"><strong>Common Components:</strong></h6>
+                    <ul>
+                        <li>Navigation Default (<b>/components/Layouts/Navbar.js</b>)</li>
+                        <li>Navigation Two (<b>/components/Layouts/NavbarTwo.js</b>)</li>
+                        <li>Footer (<b>/components/Layouts/Footer.js</b>)</li>
+                        <li>GoTop (<b>/components/Layouts/GoTop.js</b>)</li>
+                        <li>Loader (<b>/components/Layouts/Loader.js</b>)</li>
+                        <li>Blog Card Section (<b>/components/Common/BlogCardSection</b>)</li>
+                        <li>Page Banner (<b>/components/Common/PageBanner</b>)</li>
+                        <li>Partner Logos (<b>/components/Common/PartnerLogos</b>)</li>
+                        <li>Services Content (<b>/components/Common/ServicesContent</b>)</li>
+                        <li>Subscribe Style One (<b>/components/Common/SubscribeStyleOne</b>)</li>
+                        <li>Subscribe Style Two (<b>/components/Common/SubscribeStyleTwo</b>)</li>
+                        <li>Team Card (<b>/components/Common/TeamCard</b>)</li>
+                        <li>WhyChooseUs (<b>/components/Common/WhyChooseUs</b>)</li>
+                    </ul>
+                    
+                    <h6 style="margin-top:20px"><strong>Template Features:</strong></h6>
+                    <ul>
+                        <li>ES6+</li>
+                        <li>React JS 18+</li>
+                        <li>Next JS 12+</li>
+                        <li>Bootstrap v5.x</li>
+                        <li>Simple client-side routing (page based)</li>
+                        <li>Easy Customization</li>
+                        <li>React Modal Video</li>
+                    </ul>
+                </section>
+
+                <section id="dependencies">
+                    <div class="page-header">
+                        <h3>Dependencies</h3>
+                    </div>
+                    <p> Here are the <strong>dependencies</strong> list which being used in the Neemo React Template:</p>
+                    <pre class="line-numbers">
+<code class="language-markup"> 
+"dependencies": {
+	"animate.css": "^4.1.1",
+    "axios": "^0.21.4",
+    "next": "^12.0.4",
+    "nodemailer": "^6.7.1",
+    "nodemailer-sendgrid-transport": "^0.2.0",
+    "react": "^18.0.0",
+    "react-accessible-accordion": "^3.3.5",
+    "react-dom": "^17.0.2",
+    "react-modal-video": "^1.2.8",
+    "react-owl-carousel3": "^2.2.5",
+    "sass": "^1.43.4",
+    "sweetalert2": "^11.1.10",
+    "sweetalert2-react-content": "^4.2.0"
+}
+</code>
+                    </pre class="brush:css">
+                </section>
+
+                <section id="change_layout">
+                    <div class="page-header">
+                        <h3>Change Default Home Page</h3>
+                    </div>
+                    <p>The default home page is <code class="language-markup">index.js</code> which placed in <code class="language-markup">/pages/index.js</code> if you want change this default to home page two as default home then just take backup your <code class="language-markup">index.js</code> & make <code class="language-markup">home2.js</code> to <code class="language-markup">index.js</code> & that is.</p>
+                </section>
+
+                <section id="contact">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">Contact Form Setup</h3>
+                    </div>
+                    <p>
+						Please create the SendGrid API key follow the below link: <br>
+						<a href="https://sendgrid.com/docs/ui/account-and-settings/api-keys/" target="_blank">https://sendgrid.com/docs/ui/account-and-settings/api-keys/</a>
+					</p>
+                    <p>Please follow the screenshot instruction file path: pages/api/contact.js</p>
+					<img src="img/email.png"> 
+                    <br>
+                    <br>
+                    <p>Following by screenshot update the baseUrl</p>
+                    <img src="img/baseurl.png"> 
+                </section>
+				 
+                <section id="fonts_used">
+                    <div class="page-header">
+                        <h3>Fonts Used</h3>
+                    </div>
+                    <p> By default, the template loads <strong>Roboto</strong> font from Google Web Font Services, you can change the font with the one that suits you best. <a href="https://fonts.google.com/" target="_blank">Google Fonts</a></p></p>
+                    <p>You will find the font code in the &quot;<strong>style.scss</strong> file: <code class="language-css">public/css/style.scss</code></p>
+                    <pre class="line-numbers">
+<code class="language-css">
+$main-font-family: 'Roboto', sans-serif;
+$main-color: #316cbf;
+$optional-color: #fbe6d4;
+$white-color: #ffffff;
+$black-color: #202647;
+$paragraph-color: #6a6c72;
+</code>
+                    </pre>
+                    <img src="img/fonts.png" alt="">
+                    <br><br>
+					<p><b>Note:</b> After SCSS file run then it will be work</p>
+                </section>
+				
+				<section id="run_scss_file">
+                    <div class="page-header">
+                        <h3>How to Run The SCSS File</h3>
+                    </div>
+					<p>Please open the file Visual Studio Code Editor. And follow the video tutorial.</p>
+					<p>Here the Link: <a href="https://www.youtube.com/watch?v=0MWmv1Gvv5w" target="_blank">https://www.youtube.com/watch?v=0MWmv1Gvv5w</a></p>
+                </section>
+                
+                <section id="supports">
+                    <div class="page-header">
+                        <h3 style="margin-top: 0; margin-bottom: 12px;">24-Hour Turnaround Support:</h3>
+                    </div>
+					<p>Quick, Dedicated & Professional Support!</p>
+					<p>We only provide support through our ticketing system. Please submit your ticket by visiting the <a href="https://support.envytheme.com/" target="_blank">EnvyTheme Support System</a>.</p>
+					<p>For any pre-purchase query, please use live chat on the item demo site also, email, and the item’s comment section on ThemeForest. Thanks!</p>
+                </section>
+            </article>
+        </main>
+
+        <footer class="site-footer">
+            <div class="container-fluid"> <a id="scroll-up" href="#"><i class="fa fa-angle-up"></i></a>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <p>&copy; EnvyTheme.com All right reserved</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
