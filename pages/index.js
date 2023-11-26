@@ -25,29 +25,29 @@ class Index extends Component {
         <div className=" pt-20">
           <AboutContent />
         </div>
-        <FeaturesContent />
+        {/* <FeaturesContent /> */}
 
         <ServicesContent />
 
-        <WhyChooseUs />
+        {/* <WhyChooseUs /> */}
 
-        <TabsContent />
+        {/* <TabsContent /> */}
 
-        <ProjectsStyleOne />
+        {/* <ProjectsStyleOne /> */}
 
-        <TeamCard />
+        {/* <TeamCard /> */}
 
         <TestimonialSection />
 
         <AnalysisFormContent />
 
-        <BlogCardSection />
+        {/* <BlogCardSection /> */}
 
-        <div className="pb-100">
+        {/* <div className="pb-100">
           <PartnerLogos />
-        </div>
+        </div> */}
 
-        <SubscribeStyleOne />
+        {/* <SubscribeStyleOne /> */}
 
         <Footer />
       </>

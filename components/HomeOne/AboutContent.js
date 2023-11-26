@@ -8,30 +8,38 @@ class AboutContent extends Component {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <div className="about-image">
-                <img src="/images/about-image.png" alt="image" />
+                <img
+                  src="/images/about-us3.jpg"
+                  alt="image"
+                  style={{ borderRadius: "8px" }}
+                />
               </div>
             </div>
 
             <div className="col-lg-6 col-md-12">
               <div className="about-area-content">
                 <span>We are here to help</span>
-                <h3>Why Choose Digital Marketing?</h3>
+                <h3>Why Choose Digital Marketing For Your Business?</h3>
                 <strong>
-                  Choose digital marketing to harness the power of the online
-                  landscape, connect with your target audience, drive meaningful
-                  engagement, and achieve your business goals in a
-                  cost-effective and measurable way.
+                  By investing in digital marketing strategies long-term, your
+                  business can increase brand awareness and even brand loyalty
+                  of your clients and target audience. A few examples of digital
+                  marketing services that boost brand awareness and loyalty
+                  include content marketing and social media marketing.
                 </strong>
                 <p>
-                  Reach and Engage a Wider Audience: Digital marketing enables
-                  you to connect with a vast global audience instantly. Through
-                  various online channels such as search engines, social media,
-                  and email marketing, you can reach potential customers across
-                  geographical boundaries and engage them effectively.
+                  Each service focuses on offering your target audience value,
+                  whether by creating original content that answers user
+                  questions or by engaging users across the different types of
+                  social platforms. By focusing on your clients, rather than
+                  your sales goals, you improve your online brand. That
+                  reputation can build loyalty among shoppers, encouraging them
+                  to choose and stick with your company for the long-term. Their
+                  commitment later contributes to your sales goals.
                 </p>
               </div>
 
-              <div className="row">
+              {/* <div className="row">
                 <div className="col-lg-6 col-6 col--6">
                   <div className="single-fun-facts">
                     <h3>
@@ -51,7 +59,7 @@ class AboutContent extends Component {
                     <p>Satisfied Clients</p>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

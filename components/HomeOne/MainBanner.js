@@ -28,10 +28,10 @@ class MainBanner extends Component {
                         Digital Agency with <span>Xcellence</span> Service
                       </h1>
                       <p>
-                        At <span>TechXcellence</span> , we believe in informed
-                        decisions backed by thorough research and analysis. Our
-                        data-centric approach eliminates guesswork, ensuring
-                        valuable insights guide our strategies at every step.
+                        At <span>TechXcellence Nepal</span> , we specialize in
+                        delivering innovative and result-oriented digital
+                        marketing solutions that can help your business achieve
+                        its goals and reach its target audience effectively.
                       </p>
 
                       <div className="banner-btn">
@@ -39,7 +39,7 @@ class MainBanner extends Component {
                           <a className="default-btn-one">More About Us</a>
                         </Link>
 
-                        <div
+                        {/* <div
                           onClick={(e) => {
                             e.preventDefault();
                             this.openModal();
@@ -47,7 +47,7 @@ class MainBanner extends Component {
                           className="video-btn popup-youtube"
                         >
                           Watch Video <i className="flaticon-play-button"></i>
-                        </div>
+                        </div> */}
                       </div>
                     </div>
                   </div>
@@ -63,11 +63,13 @@ class MainBanner extends Component {
                   <div className="col-lg-6 col-md-12">
                     <div className="banner-image">
                       <img
-                        src="/images/saas-image/arrow.png"
+                        src="/images/seo_hero.jpg"
                         className="animate__animated animate__fadeInLeft animate__delay-0.5s"
-                        alt="arrow"
+                        style={{ display: "block", borderRadius: "8px" }}
+                        // alt="arrow"
                       />
-                      <img
+
+                      {/* <img
                         src="/images/saas-image/box1.png"
                         className="animate__animated animate__fadeInUp animate__delay-0.5s"
                         alt="box1"
@@ -133,12 +135,12 @@ class MainBanner extends Component {
                         alt="7"
                       />
 
-                      {/* Main Image */}
+                      
                       <img
                         src="/images/saas-image/main-image.png"
                         className="animate__animated animate__zoomIn animate__delay-0.5s"
                         alt="main-image.png"
-                      />
+                      /> */}
                     </div>
                   </div>
                 </div>
@@ -149,7 +151,7 @@ class MainBanner extends Component {
           </div>
 
           {/* Shape Images */}
-          <div className="shape-img1">
+          {/* <div className="shape-img1">
             <img src="/images/shape/1.png" alt="image" />
           </div>
           <div className="shape-img2">
@@ -181,7 +183,7 @@ class MainBanner extends Component {
           </div>
           <div className="shape-img11">
             <img src="/images/shape/11.png" alt="image" />
-          </div>
+          </div> */}
         </div>
       </>
     );

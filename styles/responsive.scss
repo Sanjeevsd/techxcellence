@@ -5,11 +5,12 @@
         background-color: #fff;
         .navbar-brand {
             img {
-                max-width: 120px;
+                max-width: 80px;
             }
         }
     }
     .neemo-nav {
+        padding: 0;
         .navbar {
             .navbar-nav {
                 margin-top: 8px !important;
@@ -145,58 +146,18 @@
     }
     .main-banner {
         height: 100%;
-        padding-top: 130px;
-        padding-bottom: 130px;
+        padding-top: 110px;
+        padding-bottom: 0;
         text-align: center;
 
-        .banner-image img:nth-child(1) {
-            display: none;
-        }
-        .banner-image img:nth-child(2) {
-            display: none;
-        }
-        .banner-image img:nth-child(3) {
-            display: none;
-        }
-        .banner-image img:nth-child(4) {
-            display: none;
-        }
-        .banner-image img:nth-child(5) {
-            display: none;
-        }
-        .banner-image img:nth-child(6) {
-            display: none;
-        }
-        .banner-image img:nth-child(7) {
-            display: none;
-        }
-        .banner-image img:nth-child(8) {
-            display: none;
-        }
-        .banner-image img:nth-child(9) {
-            display: none;
-        }
-        .banner-image img:nth-child(10) {
-            display: none;
-        }
-        .banner-image img:nth-child(11) {
-            display: none;
-        }
-        .banner-image img:nth-child(12) {
-            display: none;
-        }
-        .banner-image img:nth-child(13) {
-            display: none;
-        }
-        .banner-image img:nth-child(14) {
-            display: none;
-        }
+      
         .banner-image img:last-child {
             display: block;
             position: relative;
             max-width: 400px;
             width: 100%;
             margin: auto;
+            top: 0 !important;
         }
     }
     .main-banner-content {
