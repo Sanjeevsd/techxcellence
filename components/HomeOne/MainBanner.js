@@ -28,10 +28,14 @@ class MainBanner extends Component {
                         Digital Agency with <span>Xcellence</span> Service
                       </h1>
                       <p>
-                        At <span>TechXcellence Nepal</span> , we specialize in
-                        delivering innovative and result-oriented digital
-                        marketing solutions that can help your business achieve
-                        its goals and reach its target audience effectively.
+                        At{" "}
+                        <a href="https://techxcellencenpl.com">
+                          <span>TechXcellence Nepal</span>
+                        </a>{" "}
+                        , we specialize in delivering innovative and
+                        result-oriented digital marketing solutions that can
+                        help your business achieve its goals and reach its
+                        target audience effectively.
                       </p>
 
                       <div className="banner-btn">

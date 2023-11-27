@@ -30,10 +30,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/single-service": [
+    "/service-details": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/single-service.js"
+      "static/chunks/pages/service-details.js"
     ]
   },
   "ampFirstPages": []

@@ -18,7 +18,7 @@ class ServicesContent extends Component {
                   <i className="flaticon-landing-page"></i>
                 </div>
                 <h3>
-                  <Link href="/single-service/#seo">
+                  <Link href="/service-details/#seo">
                     <a>Search Engine Optimization</a>
                   </Link>
                 </h3>
@@ -36,7 +36,7 @@ class ServicesContent extends Component {
                   <i className="flaticon-goal"></i>
                 </div>
                 <h3>
-                  <Link href="/single-service/#smm">
+                  <Link href="/service-details/#smm">
                     <a>Social Media Marketing</a>
                   </Link>
                 </h3>
@@ -54,7 +54,7 @@ class ServicesContent extends Component {
                   <i className="flaticon-contract"></i>
                 </div>
                 <h3>
-                  <Link href="/single-service/#cm">
+                  <Link href="/service-details/#cm">
                     <a>Content Marketing</a>
                   </Link>
                 </h3>
@@ -72,7 +72,7 @@ class ServicesContent extends Component {
                   <i className="flaticon-application"></i>
                 </div>
                 <h3>
-                  <Link href="/single-service/#ppc">
+                  <Link href="/service-details/#ppc">
                     <a>Pay Per Click(PPC) Markerting</a>
                   </Link>
                 </h3>
@@ -89,7 +89,7 @@ class ServicesContent extends Component {
                   <i className="flaticon-seo"></i>
                 </div>
                 <h3>
-                  <Link href="/single-service/#ra">
+                  <Link href="/service-details/#ra">
                     <a>Reporting & Analysis</a>
                   </Link>
                 </h3>
@@ -106,7 +106,7 @@ class ServicesContent extends Component {
                   <i className="flaticon-data-recovery"></i>
                 </div>
                 <h3>
-                  <Link href="/single-service/#mfa">
+                  <Link href="/service-details/#mfa">
                     <a>Market Feasibility Analysis</a>
                   </Link>
                 </h3>

@@ -49,11 +49,10 @@ class TestimonialSection extends Component {
                 <span>Testimonial</span>
                 <h3>What Our Client Say</h3>
                 <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Quis ipsum suspendisse ultrices gravida. Risus commodo viverra
-                  maecenas accumsan lacus.Lorem is simply dummy text of the
-                  printing and typesetting industry.
+                  Read what our clients have to say about the services we
+                  provide at{" "}
+                  <a href="https://techxcellencenpl.com">TechXcellence Nepal</a>
+                  .
                 </p>
               </div>
             </div>
@@ -66,7 +65,7 @@ class TestimonialSection extends Component {
                 >
                   <div className="testimonial-single-item">
                     <div className="testimonial-image">
-                      <img src="/images/client-image/1.jpg" alt="image" />
+                      <img src="/images/sneakersbysuyug.jpeg" alt="image" />
                     </div>
                     <div className="testimonial-content-text">
                       <h3>Sneakers By Suyug</h3>
@@ -75,30 +74,31 @@ class TestimonialSection extends Component {
                         <i className="flaticon-quote"></i>
                       </div>
                       <p>
-                        Excellent Service by TechXcellence to boos my shoes
-                        sales. I am very happy with the service and would
-                        recommend to everyone.
+                        Excellent Service by TechXcellence to boost my shoes and
+                        sneakers sales. I am very happy with the service and
+                        would recommend to everyone who wants digital marketing
+                        and seo services.
                       </p>
                     </div>
                   </div>
 
-                  {/* <div className="testimonial-single-item">
+                  <div className="testimonial-single-item">
                     <div className="testimonial-image">
-                      <img src="/images/client-image/2.jpg" alt="image" />
+                      <img src="/images/momo.png" alt="image" />
                     </div>
                     <div className="testimonial-content-text">
-                      <h3>Edward Bold</h3>
-                      <span>CEO & Founder</span>
+                      <h3>Momo Galli</h3>
+                      <span>Prakash Dhakal</span>
                       <div className="icon">
                         <i className="flaticon-quote"></i>
                       </div>
                       <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                        sed do eiusmod tempor incididunt ut labore et dolore
-                        magna aliqua. Quis ipsum suspendisse gravida.
+                        TechXcellence Nepal helped us to boost our sales and
+                        increase our brand awareness. They are very professional
+                        and dedicated in their work.
                       </p>
                     </div>
-                  </div> */}
+                  </div>
                 </OwlCarousel>
               ) : (
                 ""

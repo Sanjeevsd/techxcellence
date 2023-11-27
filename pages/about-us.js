@@ -26,13 +26,13 @@ class AboutUs extends Component {
 
         <AboutContent />
 
-        <FeaturesArea />
+        {/* <FeaturesArea /> */}
 
         <ServicesContent />
 
-        <PricingContent />
+        {/* <PricingContent /> */}
 
-        <ProjectsStyleTwo />
+        {/* <ProjectsStyleTwo /> */}
 
         <TeamCard />
 

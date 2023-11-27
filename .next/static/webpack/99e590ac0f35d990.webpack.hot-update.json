@@ -1,0 +1,15 @@
+{
+  "c": ["pages/services", "webpack"],
+  "r": ["pages/service-details", "pages/about-us"],
+  "m": [
+    "./components/SingleService/SingleServiceContent.js",
+    "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fsingle-service&absolutePagePath=%2FUsers%2Fsanzeev%2FProjects%2Ftechxcellence-web%2Fpages%2Fsingle-service.js!",
+    "./pages/service-details.js",
+    "./components/AboutUs/AboutContent.js",
+    "./components/HomeTwo/FeaturesArea.js",
+    "./components/PricingPlans/PricingContent.js",
+    "./components/Projects/ProjectsStyleTwo.js",
+    "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fabout-us&absolutePagePath=%2FUsers%2Fsanzeev%2FProjects%2Ftechxcellence-web%2Fpages%2Fabout-us.js!",
+    "./pages/about-us.js"
+  ]
+}

@@ -107,27 +107,27 @@ class Footer extends Component {
 
                   <ul className="footer-quick-links">
                     <li>
-                      <Link href="/single-service">
+                      <Link href="/service-details">
                         <a>SEO Marketing</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/single-service">
+                      <Link href="/service-details">
                         <a>SEO Services</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/single-service">
+                      <Link href="/service-details">
                         <a>Services</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/single-service">
+                      <Link href="/service-details">
                         <a>Pay-Per-Click</a>
                       </Link>
                     </li>
                     <li>
-                      <Link href="/single-service">
+                      <Link href="/service-details">
                         <a>Social Media</a>
                       </Link>
                     </li>
@@ -156,7 +156,7 @@ class Footer extends Component {
                   <div className="footer-info-contact">
                     <i className="flaticon-placeholder-filled-point"></i>
                     <h3>Address</h3>
-                    <span>Kathmandu, Nepal</span>
+                    <span>Budhanilkantha, Kathmandu, Nepal</span>
                   </div>
                 </div>
               </div>
