@@ -38,9 +38,7 @@ export default class MyApp extends App {
         <Head>
           <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-          <title>
-            TechXcellence - Techxcellence-Digital marketing agency in nepal
-          </title>
+          <title>TechXcellence - Digital marketing agency in nepal</title>
           <meta
             name="description"
             content="Achieve your business goals with our expert digital marketing services by increasing brand visibility, website traffic, and generating valuable leads."

@@ -5,6 +5,7 @@ import Swal from "sweetalert2";
 import withReactContent from "sweetalert2-react-content";
 const MySwal = withReactContent(Swal);
 import baseUrl from "../../utils/baseUrl";
+import Loader from "../Layouts/Loader";
 
 const alertContent = () => {
   MySwal.fire({
@@ -28,7 +29,7 @@ const INITIAL_STATE = {
 
 const ContactForm = () => {
   const [contact, setContact] = useState(INITIAL_STATE);
-
+  const [loading, setloading] = useState(false);
   const handleChange = (e) => {
     const { name, value } = e.target;
     setContact((prevState) => ({ ...prevState, [name]: value }));
@@ -36,6 +37,7 @@ const ContactForm = () => {
   };
 
   const handleSubmit = async (e) => {
+    setloading(true);
     e.preventDefault();
     try {
       const url = `${baseUrl}/api/contact`;
@@ -45,8 +47,10 @@ const ContactForm = () => {
       console.log(response);
       setContact(INITIAL_STATE);
       alertContent();
+      setloading(false);
     } catch (error) {
       console.log(error);
+      setloading(false);
     }
   };
 
@@ -54,7 +58,7 @@ const ContactForm = () => {
     <section className="contact-area ptb-100">
       {/* Contact Info */}
       <ContactInfo />
-
+      <Loader loading={loading} />
       <div className="container">
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-6">

@@ -18,10 +18,10 @@ const options = {
       items: 3,
     },
     768: {
-      items: 3,
+      items: 4,
     },
     1200: {
-      items: 3,
+      items: 5,
     },
   },
 };
@@ -61,6 +61,26 @@ class PartnerLogos extends Component {
               <div className="partner-item">
                 <a href="#" target="_blank">
                   <img src="/images/onz.png" alt="partner" />
+                </a>
+              </div>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <img src="/images/burger.jpg" alt="partner" />
+                </a>
+              </div>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <img src="/images/fineart.jpg" alt="partner" />
+                </a>
+              </div>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <img src="/images/jayanita.jpg" alt="partner" />
+                </a>
+              </div>
+              <div className="partner-item">
+                <a href="#" target="_blank">
+                  <img src="/images/uhschool.jpg" alt="partner" />
                 </a>
               </div>
 
