@@ -22,7 +22,7 @@ class Footer extends Component {
                     services at an affordable price.
                   </p>
 
-                  <ul className="footer-social">
+                  {/* <ul className="footer-social">
                     <li>
                       <a
                         href="https://www.linkedin.com/"
@@ -59,7 +59,7 @@ class Footer extends Component {
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
 

@@ -24,7 +24,7 @@ class SidebarModal extends Component {
           </div>
 
           {/* Instagram feed */}
-          <div className="sidebar-instagram-feed">
+          {/* <div className="sidebar-instagram-feed">
             <h2>Instagram</h2>
             <ul>
               <li>
@@ -68,7 +68,7 @@ class SidebarModal extends Component {
                 </a>
               </li>
             </ul>
-          </div>
+          </div> */}
 
           {/* Contact Info */}
           <div className="sidebar-contact-area">
@@ -80,9 +80,11 @@ class SidebarModal extends Component {
                   </span>
                   <span className="or">OR</span>
                   <span className="info">support@techxcellencenpl.com</span>
+                  {/* <span className="info">ankit@techxcellencenpl.com</span>
+                  <span className="info">nikesh@techxcellencenpl.com</span> */}
                 </h2>
 
-                <ul className="social">
+                {/* <ul className="social">
                   <li>
                     <a href="https://twitter.com/" target="_blank">
                       <i className="fab fa-twitter"></i>
@@ -108,7 +110,7 @@ class SidebarModal extends Component {
                       <i className="fab fa-instagram"></i>
                     </a>
                   </li>
-                </ul>
+                </ul> */}
               </div>
             </div>
           </div>

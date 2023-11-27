@@ -1,4 +1,10 @@
 {
+  "../components/Common/PartnerLogos.js -> react-owl-carousel3": {
+    "id": "../components/Common/PartnerLogos.js -> react-owl-carousel3",
+    "files": [
+      "static/chunks/node_modules_react-owl-carousel3_lib_OwlCarousel_js.js"
+    ]
+  },
   "../components/HomeOne/MainBanner.js -> react-modal-video": {
     "id": "../components/HomeOne/MainBanner.js -> react-modal-video",
     "files": [
