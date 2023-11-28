@@ -14,7 +14,7 @@ class TeamCard extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <img src="/images/avatar.png" alt="image" />
+                  <img src="/images/nikesh.jpg" alt="image" />
                 </div>
 
                 <div className="team-content">
@@ -56,7 +56,7 @@ class TeamCard extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <img src="/images/avatar.png" alt="image" />
+                  <img src="/images/ankit.jpg" alt="image" />
                 </div>
 
                 <div className="team-content">
@@ -98,7 +98,7 @@ class TeamCard extends Component {
             <div className="col-lg-4 col-sm-6">
               <div className="team-item-area">
                 <div className="team-image">
-                  <img src="/images/avatar.png" alt="image" />
+                  <img src="/images/Rajkumar.jpg" alt="image" />
                 </div>
 
                 <div className="team-content">

@@ -22,8 +22,8 @@ class Footer extends Component {
                     services at an affordable price.
                   </p>
 
-                  {/* <ul className="footer-social">
-                    <li>
+                  <ul className="footer-social">
+                    {/* <li>
                       <a
                         href="https://www.linkedin.com/"
                         target="_blank"
@@ -31,8 +31,8 @@ class Footer extends Component {
                       >
                         <i className="fab fa-linkedin-in"></i>
                       </a>
-                    </li>
-                    <li>
+                    </li> */}
+                    {/* <li>
                       <a
                         href="https://www.facebook.com/"
                         target="_blank"
@@ -49,17 +49,17 @@ class Footer extends Component {
                       >
                         <i className="fab fa-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
-                        href="https://www.instagram.com/"
+                        href="https://www.instagram.com/techexcellencenepal/"
                         target="_blank"
                         className="bg-0273af"
                       >
                         <i className="fab fa-instagram"></i>
                       </a>
                     </li>
-                  </ul> */}
+                  </ul>
                 </div>
               </div>
 

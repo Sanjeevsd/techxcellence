@@ -1563,7 +1563,7 @@ Features Section CSS
 /*================================================
 About Section CSS
 =================================================*/
-.about-area-content {
+.about-area-content {padding-bottom: 15px;
     span {
         font-size: 14px;
         color: $main-color;
@@ -1652,7 +1652,7 @@ Services Section CSS
     padding: 50px 35px;
     margin-bottom: 30px; 
     border-radius: 10px;
-
+height: 310px;
     &.bg-f3f3f3 {
         background-color: #f3f3f3;
         .icon {
@@ -2069,6 +2069,16 @@ Team Section CSS
 .team-item-area {
     background-color: #fff;
     margin-bottom: 30px;
+    .team-image{
+        width: 100%;
+        height: 300px;
+        img{
+            object-fit: cover;
+            width: 100%;
+            object-position: center top;
+            height: 100%;
+        }
+    }
     .team-content {
         text-align: center;
         padding: 25px 15px;
@@ -2213,6 +2223,7 @@ Testimonial Section CSS
         position: relative;
         margin-top: 78px;
         border-radius: 10px;
+        height: 300px;
 
         &::before {
             position: absolute;

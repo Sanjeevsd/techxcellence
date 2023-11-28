@@ -110,10 +110,10 @@ class TestimonialSection extends Component {
                         <i className="flaticon-quote"></i>
                       </div>
                       <p>
-                        Excellent admissions outreach by TechXcellence Team! The
-                        website and ad campaigns brought students and parents
-                        closer to exceptional education. Very Professional and
-                        time bound services. Highly recommended.
+                        The website and ad campaigns brought students and
+                        parents closer to exceptional education. Very
+                        Professional and time bound services. Highly
+                        recommended.
                       </p>
                     </div>
                   </div>
