@@ -99,6 +99,77 @@ class TestimonialSection extends Component {
                       </p>
                     </div>
                   </div>
+                  <div className="testimonial-single-item">
+                    <div className="testimonial-image">
+                      <img src="/images/uhschool.jpg" alt="image" />
+                    </div>
+                    <div className="testimonial-content-text">
+                      <h3>Universal Higher Secondary School</h3>
+                      <span>Bijay Kharel</span>
+                      <div className="icon">
+                        <i className="flaticon-quote"></i>
+                      </div>
+                      <p>
+                        Excellent admissions outreach by TechXcellence Team! The
+                        website and ad campaigns brought students and parents
+                        closer to exceptional education. Very Professional and
+                        time bound services. Highly recommended.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="testimonial-single-item">
+                    <div className="testimonial-image">
+                      <img src="/images/burger.jpg" alt="image" />
+                    </div>
+                    <div className="testimonial-content-text">
+                      <h3>Classic Burger & Chicken King</h3>
+                      <span>Roshan Shrestha</span>
+                      <div className="icon">
+                        <i className="flaticon-quote"></i>
+                      </div>
+                      <p>
+                        Outstanding social media management and captivating
+                        content! Their designs, flyers, and menus truly elevated
+                        our service, attracting an influx of delighted
+                        customers.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="testimonial-single-item">
+                    <div className="testimonial-image">
+                      <img src="/images/jayanita.jpg" alt="image" />
+                    </div>
+                    <div className="testimonial-content-text">
+                      <h3>Jaya Nita Hardware Center</h3>
+                      <span>Bijay Karki</span>
+                      <div className="icon">
+                        <i className="flaticon-quote"></i>
+                      </div>
+                      <p>
+                        Exceptional content creation and savvy social media
+                        management! Their expertise brought our brand to life,
+                        engaging audiences and driving remarkable growth.
+                      </p>
+                    </div>
+                  </div>
+                  <div className="testimonial-single-item">
+                    <div className="testimonial-image">
+                      <img src="/images/fineart.jpg" alt="image" />
+                    </div>
+                    <div className="testimonial-content-text">
+                      <h3>Rabi’s Fine Art Studio</h3>
+                      <span>Rabi Basnet</span>
+                      <div className="icon">
+                        <i className="flaticon-quote"></i>
+                      </div>
+                      <p>
+                        From content creation to strategic marketing, their
+                        social media prowess was unparalleled. They transformed
+                        our online presence, capturing attention and fostering
+                        meaningful connections
+                      </p>
+                    </div>
+                  </div>
                 </OwlCarousel>
               ) : (
                 ""
