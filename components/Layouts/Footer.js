@@ -52,6 +52,15 @@ class Footer extends Component {
                     </li> */}
                     <li>
                       <a
+                        href="https://www.facebook.com/profile.php?id=100093043455729&mibextid=LQQJ4d"
+                        target="_blank"
+                        className="bg-1da1f2"
+                      >
+                        <i className="fab fa-facebook-f"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
                         href="https://www.instagram.com/techexcellencenepal/"
                         target="_blank"
                         className="bg-0273af"

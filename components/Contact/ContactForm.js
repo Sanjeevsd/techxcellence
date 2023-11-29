@@ -74,30 +74,36 @@ const ContactForm = () => {
 
               <ul className="social-links">
                 <li>
-                  <a href="https://www.facebook.com/" target="_blank">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100093043455729&mibextid=LQQJ4d"
+                    target="_blank"
+                  >
                     <i className="fab fa-facebook-f"></i>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://twitter.com/" target="_blank">
                     <i className="fab fa-twitter"></i>
                   </a>
-                </li>
+                </li> */}
                 <li>
-                  <a href="https://www.instagram.com/" target="_blank">
+                  <a
+                    href="https://www.instagram.com/techexcellencenepal/"
+                    target="_blank"
+                  >
                     <i className="fab fa-instagram"></i>
                   </a>
                 </li>
-                <li>
+                {/* <li>
                   <a href="https://www.linkedin.com/" target="_blank">
                     <i className="fab fa-linkedin"></i>
                   </a>
-                </li>
-                <li>
+                </li> */}
+                {/* <li>
                   <a href="https://www.pinterest.com/" target="_blank">
                     <i className="fab fa-pinterest"></i>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
           </div>
